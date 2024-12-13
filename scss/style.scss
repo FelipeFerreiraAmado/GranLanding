@@ -1,0 +1,52 @@
+@use 'custom' as *;
+@use 'animacao';
+@use 'botoes';
+@use 'mixins';
+@use 'tipografia';
+@use 'provaSocial';
+@use 'sobreNos';
+@use 'testemunhas';
+@use 'footer';
+
+body {
+    background-color: $gray-300;
+}
+
+.cabecalho {
+    margin-bottom: -62px;
+}
+
+// #primeiroCarousel {
+//     margin-top: -62px;
+// }
+
+/* Estilo padrão para vídeos */
+.item-1 video {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100vh; /* O vídeo sempre ocupa toda a altura */
+}
+
+/* Estilo responsivo */
+@media (max-width: 767px) {
+    .item-1 {
+        .landscape {
+            display: none !important; /* Esconde a versão deitada no mobile */
+        }
+        .portrait {
+            display: block !important; /* Mostra a versão em pé no mobile */
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .item-1 {
+        .landscape {
+            display: block !important; /* Mostra a versão deitada no desktop */
+        }
+        .portrait {
+            display: none !important; /* Esconde a versão em pé no desktop */
+        }
+    }
+}

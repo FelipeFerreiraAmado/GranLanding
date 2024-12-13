@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grancommerce</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- MENU NAVEGAÇÃO -->
+    <nav class="cabecalho navbar navbar-expand-lg bg-dark border-bottom border-body sticky-top opacity-75"
+        data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/logo Grancommerce.png" width="100">
+            </a>
+            <!-- Botão de hamburguer para dispositivos móveis -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menu de navegação que irá se expandir -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cards">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Avaliações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <div id="inicio"></div>
+
+    <!-- CAROUSEL VIDEOS -->
+    <div id="videoCarousel primeiroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <!-- <button type="button" data-bs-target="#videoCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+        </div>
+        <div class="carousel-inner">
+            <!-- Primeiro Slide -->
+            <div class="item-1 carousel-item active" data-bs-interval="15000">
+                <!-- Vídeo Deitado -->
+                <video id="video1" class="d-block w-100 landscape" autoplay muted loop>
+                    <source src="./assets/vid/s10.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+                <!-- Vídeo em pé para dispositivos móveis -->
+                <video class="d-block w-100 portrait" autoplay muted loop>
+                    <source src="./assets/vid/s10mob.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+            <!-- Segundo Slide -->
+            <div class="item-1 carousel-item" data-bs-interval="15000">
+                <!-- Vídeo deitado -->
+                <video id="video2" class="d-block w-100 landscape" autoplay muted loop>
+                    <source src="./assets/vid/ultraProMini.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+                <!-- Vídeo em pé para dispositivos móveis -->
+                <video class="d-block w-100 portrait" autoplay muted loop>
+                    <source src="./assets/vid/ultraProMiniMob.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+            <!-- Adicione mais slides conforme necessário -->
+        </div>
+
+        <!-- Controles do Carousel -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#videoCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#videoCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- SOBRE NOS -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold">Grancommerce</h1>
+                <div class="heading-line mb-1"></div>
+            </div>
+            <!-- START THE DESCRIPTION CONTENT  -->
+            <div class="row pt-2 pb-2 mt-0 mb-3">
+                <div class="col-md-6 border-right">
+                    <div class="p-3">
+                        <h2 class="fw-bold text-capitalize text-center">
+                            Somos uma empresa do ramo ecommerce com foco em smartwatches.
+                        </h2>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-4 text-start">
+                        <p class="fw-light">
+                            Nosso foco é entregar um produto de alta qualidade com preço acessível, nosso suporte
+                            especializado, ajudamos desde a compra até a configuração do aparelho, fazemos tudo com
+                            muito amor e carinho para deixar nossos clientes o mais satisfeitos possivel.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- START THE CONTENT FOR THE SERVICES  -->
+        <div class="container">
+            <!-- START THE MARKETING CONTENT  -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                    <div class="services__content">
+                        <div class="icon d-block fas fa-regular fa-clock"></div>
+                        <h3 class="display-3--title mt-1">Microwear</h3>
+                        <p class="lh-lg">
+                            A Microwear é uma fabricante de smartwatches da mais alta tecnologia, seu diferencial
+                            está no poder de processamento, utilizando microchips de última geração para
+                            a melhor experiência do usuário.
+                        </p>
+                        <button type="button" class="rounded-pill btn-rounded border-primary">Conheça a marca
+                            <span><i class="fas fa-arrow-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+                    <div class="services__pic">
+                        <img src="./assets/img/Microwear/microwear1.webp" alt="marketing illustration"
+                            class="img-fluid shadow-lg rounded-circle">
+                    </div>
+                </div>
+            </div>
+            <!-- START THE WEB DEVELOPMENT CONTENT  -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start d-flex align-items-center">
+                    <div class="services__pic">
+                        <img src="./assets/img/logo Grancommerce p.png" alt="web development illustration"
+                            class="img-fluid w-75">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                    <div class="services__content">
+                        <div class="icon d-block fas fa-store"></div>
+                        <h3 class="display-3--title mt-1">Grancommerce</h3>
+                        <p class="lh-lg">
+                            Grancommerce atua no e-commerce de Produtos físicos venda online há dois anos,
+                            oferecendo uma seleção de produtos tecnológicos e utilitários.
+                            Com experiência e compromisso, a empresa busca atender clientes de forma ágil e segura,
+                            entregando produtos de qualidade e suporte pós-venda confiável.
+                        </p>
+                        <button type="button" class="rounded-pill btn-rounded border-primary">Fale conosco
+                            <span><i class="fab fa-brands fa-whatsapp"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- START THE CLOUD HOSTING CONTENT  -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
+                    <div class="services__content">
+                        <div class="icon d-block fas fa-regular fa-face-laugh-beam"></div>
+                        <h3 class="display-3--title mt-1">Reclame Aqui</h3>
+                        <p class="lh-lg">
+                            Somos uma empresa homologada no Reclame Aqui, venha conhecer nossa
+                            empresa, estamos sempre prontos e dispostos a sanar todas dúvidas de nossos
+                            clientes e fornecer aquele atendimento diferenciado. Nossa satisfação é sua
+                            satisfação.
+                        </p>
+                        <button type="button" class="rounded-pill btn-rounded border-primary">Reclame Aqui
+                            <span><i class="fas fa-arrow-right"></i></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
+                    <div class="services__pic">
+                        <img src="./assets/img/reclameAqui.png" alt="cloud hosting illustration"
+                            class="img-fluid rounded-pill shadow-lg w-75">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARDS RELOGIOS -->
+    <div id="cards" class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <!-- CARD -->
+            <div class="col">
+                <div class="card mx-auto my-5" style="max-width: 23rem;">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./assets/img/Relogios/Ultra-Ai-3.png" class="img-fluid" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold"><a>Ultra AI 3</a></h5>
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"> </i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.8 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2">Ultra AI 3 5G</p>
+                        <p class="card-text">
+                            Sistema Android, suporte para chip 5G, WIFI integrado, Câmera 2MP com ângulo de 180º,
+                            tela
+                            AMOLED,
+                            Memória 2+32 GB, GPS e mais.
+                        </p>
+                        <hr class="my-4" />
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-outline-success btn-lg">Compre Aqui</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="col">
+                <div class="card mx-auto my-5" style="max-width: 23rem;">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./assets/img/Relogios/Ultra-Ai-3.png" class="img-fluid" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold"><a>Ultra AI 3</a></h5>
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"> </i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.8 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2">Ultra AI 3 5G</p>
+                        <p class="card-text">
+                            Sistema Android, suporte para chip 5G, WIFI integrado, Câmera 2MP com ângulo de 180º,
+                            tela
+                            AMOLED,
+                            Memória 2+32 GB, GPS e mais.
+                        </p>
+                        <hr class="my-4" />
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-outline-success btn-lg">Compre Aqui</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="col">
+                <div class="card mx-auto my-5" style="max-width: 23rem;">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./assets/img/Relogios/Ultra-Ai-3.png" class="img-fluid" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold"><a>Ultra AI 3</a></h5>
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"> </i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.8 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2">Ultra AI 3 5G</p>
+                        <p class="card-text">
+                            Sistema Android, suporte para chip 5G, WIFI integrado, Câmera 2MP com ângulo de 180º,
+                            tela
+                            AMOLED,
+                            Memória 2+32 GB, GPS e mais.
+                        </p>
+                        <hr class="my-4" />
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-outline-success btn-lg">Compre Aqui</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD -->
+            <div class="col">
+                <div class="card mx-auto my-5" style="max-width: 23rem;">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./assets/img/Relogios/Ultra-Ai-3.png" class="img-fluid" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title font-weight-bold"><a>Ultra AI 3</a></h5>
+                        <ul class="list-unstyled list-inline mb-0">
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"> </i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item me-0">
+                                <i class="fas fa-star text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-star-half-alt text-warning fa-xs"></i>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted">4.8 (413)</p>
+                            </li>
+                        </ul>
+                        <p class="mb-2">Ultra AI 3 5G</p>
+                        <p class="card-text">
+                            Sistema Android, suporte para chip 5G, WIFI integrado, Câmera 2MP com ângulo de 180º,
+                            tela
+                            AMOLED,
+                            Memória 2+32 GB, GPS e mais.
+                        </p>
+                        <hr class="my-4" />
+                        <div class="d-grid">
+                            <button type="button" class="btn btn-outline-success btn-lg">Compre Aqui</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PROVA SOCIAL -->
+    <section id="testimonials" class="testimonials">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#dee2e6" fill-opacity="1"
+                d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container">
+            <div class="row text-center text-white">
+                <h1 class="display-3 fw-bold">Avaliações</h1>
+                <hr style="width: 100px; height: 3px; " class="mx-auto">
+                <p class="lead pt-1">oque nossos clientes estão dizendo</p>
+            </div>
+
+            <!-- START THE CAROUSEL CONTENT  -->
+            <div class="row align-items-center">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- CAROUSEL ITEM 1 -->
+                        <div class="carousel-item active">
+                            <!-- testimonials card  -->
+                            <div class="testimonials__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    Comprei um relógio da GRANCOMMERCE, e fiquei muito feliz de ter adquirido ele,
+                                    não só contente com o relógio, mas com a equipe em geral, foram super atenciosos
+                                    na hora do atendimento até na hora na hora do pagamento. O produto chegou muito
+                                    bem embalado e entrega foi rápida, para quem busca smartwatch de qualidade,
+                                    atendimento bom e entrega rápida, super indico a GRANCOMMERCE!
+                                    <i class="fas fa-quote-right"></i>
+                                <div class="ratings p-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!-- client picture  -->
+                            <div class="testimonials__picture">
+                                <img src="./assets/img/testemunhas/client-1.jpg" alt="client-1 picture"
+                                    class="rounded-circle img-fluid">
+                            </div>
+                            <!-- client name & role  -->
+                            <div class="testimonials__name">
+                                <h3>Marcos Gabriel</h3>
+                                <p class="fw-light">Instagram</p>
+                            </div>
+                        </div>
+                        <!-- CAROUSEL ITEM 2 -->
+                        <div class="carousel-item">
+                            <!-- testimonials card  -->
+                            <div class="testimonials__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    O pessoal da equipe GRANCOMMERCE pediu que eu gravasse um vídeo para ajudar no
+                                    engajamento e ajudar as pessoas a conhecer a empresa.
+                                    Olha recentemente eu comprei um fone bluetooth, e assim veio dentro
+                                    do que o anúncio falava, tudo certinho, a embalagem é toda caprichada, deu gosto
+                                    de abrir, e o atendimento nota 1000, fui muito bem atendida e respondem super
+                                    rápido.
+                                    Indico para todos que querem comprar algum produto eletrônico.
+                                    <i class="fas fa-quote-right"></i>
+                                <div class="ratings p-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!-- client picture  -->
+                            <div class="testimonials__picture">
+                                <img src="./assets/img/testemunhas/client-2.jpg" alt="client-2 picture"
+                                    class="rounded-circle img-fluid">
+                            </div>
+                            <!-- client name & role  -->
+                            <div class="testimonials__name">
+                                <h3>Priscila Almeida</h3>
+                                <p class="fw-light">Facebook</p>
+                            </div>
+                        </div>
+                        <!-- CAROUSEL ITEM 3 -->
+                        <div class="carousel-item">
+                            <!-- testimonials card  -->
+                            <div class="testimonials__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    Recentemente comprei um smartwatch, e estava com muita dívida onde comprar,
+                                    até que achei o pessoal da GRANCOMMERCE. Quando me deparei com eles e
+                                    iniciei um conversa eles foram muito atenciosos sabiam o que estavam falando e foram
+                                    muito simpáticos. E em questão do pagamento, também foi bem tranquilo e fácil de
+                                    fazer.
+                                    O relógio veio muito bem embalado e o envio veio bem rápido. Gostei muito de comprar
+                                    com eles!
+                                    <i class="fas fa-quote-right"></i>
+                                <div class="ratings p-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!-- client picture  -->
+                            <div class="testimonials__picture">
+                                <img src="./assets/img/testemunhas/client-3.jpg" alt="client-3 picture"
+                                    class="rounded-circle img-fluid">
+                            </div>
+                            <!-- client name & role  -->
+                            <div class="testimonials__name">
+                                <h3>Fabio Souza</h3>
+                                <p class="fw-light">Youtube</p>
+                            </div>
+                        </div>
+                        <!-- CAROUSEL ITEM 4 -->
+                        <div class="carousel-item">
+                            <!-- testimonials card  -->
+                            <div class="testimonials__card">
+                                <p class="lh-lg">
+                                    <i class="fas fa-quote-left"></i>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto
+                                    atque repudiandae. Distinctio.
+                                    <i class="fas fa-quote-right"></i>
+                                <div class="ratings p-1">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                </p>
+                            </div>
+                            <!-- client picture  -->
+                            <div class="testimonials__picture">
+                                <img src="./assets/img/testemunhas/client-4.jpg" alt="client-4 picture"
+                                    class="rounded-circle img-fluid">
+                            </div>
+                            <!-- client name & role  -->
+                            <div class="testimonials__name">
+                                <h3>Uhuru Kenyatta</h3>
+                                <p class="fw-light">C.E.O & Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        </button>
+                        <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#dee2e6" fill-opacity="1"
+                d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold text-uppercase">faq</h1>
+                <div class="heading-line"></div>
+                <p class="lead">perguntas frequentes, confira sua dúvida aqui</p>
+            </div>
+            <!-- ACCORDION CONTENT  -->
+            <div class="row mt-5">
+                <div class="col-md-12">
+                    <div class="accordion" id="accordionExample">
+                        <!-- ACCORDION ITEM 1 -->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Como funciona a garantia?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Garantia de 7 dias por insatisfação!</strong> Compra segura,
+                                    tenha a certeza de receber exatamente oque está comprando. Qualquer insatisfação
+                                    entre em contato conosco, resolveremos qualquer dúvida ou questão que venham a
+                                    surgir.
+                                    <strong>3 meses de garantia contra defeito de fabricação</strong>, Qualquer defeito
+                                    pode nos devolver gratuitamente e recebe 100% de volta o valor pago.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ACCORDION ITEM 2 -->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    É compativel com celulares Apple?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Sim, todos modelos de relógios são compatíveis com aparelhos Apple e
+                                        Android.</strong>
+                                    Nossos relógios vêm com sistema Android nativo, sendo capaz de se conectar com
+                                    diversos
+                                    aparelhos e acesso a toda Play Store. Inclusive alguns modelos de relógio tem
+                                    entrada
+                                    para chip 5g, onde vc pode utilizar internet móvel, fazer ligações e até chamadas de
+                                    vídeo!
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ACCORDION ITEM 3 -->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Posso entrar na água com o relógio no pulso?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Não recomendamos.</strong> Apesar de existir uma proteção para água,
+                                    não recomendamos que mergulhe o relógio, principalmente na água do mar pois
+                                    contém muitos minerais que poderão danificar o aparelho e perder a garantia.
+                                    A proteção contra líquidos serve para aqueles dias de chuva, quando estiver lavando
+                                    sua louça
+                                    ou caso acidentalmente entre no banho com o relógio no pulso (nesse caso
+                                    recomendamos
+                                    que retire o aparelho imediatamente e deixe-o secar em um ambiente seco e
+                                    ventilado).
+                                    <strong>Nunca coloque o aparelho para carregar enquanto estiver húmido!</strong>
+                                    isso
+                                    também pode danificar o aparelho e perder sua garantia.
+                                    Nossos relógios tem uma construção excelente em metal e são muito resistentes, porém
+                                    não
+                                    é bom abusar, qualquer dúvida entre em contato no nosso whatsapp.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ACCORDION ITEM 4 -->
+                        <div class="accordion-item shadow mb-3">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Como faço para acionar a garantia?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Caso encontre algum defeito de fábrica ou esteja insatisfeito a primeira coisa é
+                                    entrar em
+                                    contato com nosso suporte do whatsapp, iremos sanar todas suas dúvidas e auxiliar
+                                    com qualquer
+                                    problema. Em caso de defeito de fábrica é só enviar o aparelho bem embalado com
+                                    todos componentes
+                                    na caixa e nos informar o defeito, iremos ressarcir o valor do envio e fazer uma
+                                    avaliação no
+                                    aparelho, caso o aparelho chegue com danos por mal uso <strong>não seguiremos com o
+                                        reembolso</strong>,
+                                    estando tudo certo, faremos o reembolso em até 7 dias e após enviaremos o aparelho
+                                    defeituoso para
+                                    fabricante identificar o erro. (nesse caso forneceremos um cupom de desconto como
+                                    forma de compensação
+                                    e agradecimento pela sua compreensão.) Caso queira devolver por insatisfação o
+                                    processo é o mesmo,
+                                    entre em contato conosco explicando o motivo de sua insatisfação, estando dentro do
+                                    prazo de 7 dias
+                                    e o aparelho bem conservado é só nos enviar o aparelho com todos itens na caixa que
+                                    reembolsaremos
+                                    o valor do envio e do aparelho.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- CONTENT FOR THE MOBILE NUMBER  -->
+                <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+                    <div class="contact-box__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call"
+                            viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path
+                                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                            <path d="M15 7a2 2 0 0 1 2 2" />
+                            <path d="M15 3a6 6 0 0 1 6 6" />
+                        </svg>
+                    </div>
+                    <div class="contact-box__info">
+                        <a href="#" class="contact-box__info--title">Whatsapp</a>
+                        <p class="contact-box__info--subtitle"> Seg-Sáb 08h-18h</p>
+                    </div>
+                </div>
+                <!-- CONTENT FOR EMAIL  -->
+                <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+                    <div class="contact-box__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-opened"
+                            viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <polyline points="3 9 12 15 21 9 12 3 3 9" />
+                            <path d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10" />
+                            <line x1="3" y1="19" x2="9" y2="13" />
+                            <line x1="15" y1="13" x2="21" y2="19" />
+                        </svg>
+                    </div>
+                    <div class="contact-box__info">
+                        <a href="#" class="contact-box__info--title">Nosso Gmail</a>
+                        <p class="contact-box__info--subtitle">Suporte Online</p>
+                    </div>
+                </div>
+                <!-- CONTENT FOR LOCATION  -->
+                <div class="col-md-4 col-lg-4 contact-box pt-1 d-md-block d-lg-flex d-flex">
+                    <div class="contact-box__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-2"
+                            viewBox="0 0 24 24" stroke-width="1" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <line x1="18" y1="6" x2="18" y2="6.01" />
+                            <path d="M18 13l-3.5 -5a4 4 0 1 1 7 0l-3.5 5" />
+                            <polyline points="10.5 4.75 9 4 3 7 3 20 9 17 15 20 21 17 21 15" />
+                            <line x1="9" y1="4" x2="9" y2="17" />
+                            <line x1="15" y1="15" x2="15" y2="20" />
+                        </svg>
+                    </div>
+                    <div class="contact-box__info">
+                        <a href="#" class="contact-box__info--title">Paraná, Brasil</a>
+                        <p class="contact-box__info--subtitle">São Paulo & Paraná</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- START THE SOCIAL MEDIA CONTENT  -->
+        <div class="footer-sm" style="background-color: #212121;">
+            <div class="container">
+                <div class="row py-4 text-center text-white">
+                    <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+                        conheça nossas redes sociais
+                    </div>
+                    <div class="col-lg-7 col-md-6">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <!-- <a href="#"><i class="fab fa-linkedin"></i></a> -->
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- START THE CONTENT FOR THE CAMPANY INFO -->
+        <div class="container mt-5">
+            <div class="row text-white justify-content-center mt-3 pb-3">
+                <div class="col-12 col-sm-6 col-lg-6 mx-auto">
+                    <h5 class="text-capitalize fw-bold">Grancommerce</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+                    <p class="lh-lg">
+                        Duvidas? Entre em contato nossa equipe de atendimento está pronta para lhe atender a qualquer hora do dia.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                    <h5 class="text-capitalize fw-bold">Produtos</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+                    <ul class="list-inline campany-list">
+                        <li><a href="#">Relógios</a></li>
+                        <li><a href="#">Fones de ouvido</a></li>
+                        <li><a href="#">Bolsas</a></li>
+                        <li><a href="#">Motos elétricas</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                    <h5 class="text-capitalize fw-bold">Links Úteis</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+                    <ul class="list-inline campany-list">
+                        <li><a href="#">Seja um Afiliado</a></li>
+                        <li><a href="#">Grupo de vendas Discord</a></li>
+                        <li><a href="#">Conheça a Microwear</a></li>
+                        <li><a href="#">Ajuda</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
+                    <h5 class="text-capitalize fw-bold">Contato</h5>
+                    <hr class="bg-white d-inline-block mb-4" style="width: 60px; height: 2px;">
+                    <ul class="list-inline campany-list">
+                        <li><a href="#">Whatsapp</a></li>
+                        <li><a href="#">E-mail</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- START THE COPYRIGHT INFO  -->
+        <div class="footer-bottom pt-5 pb-5">
+            <div class="container">
+                <div class="row text-center text-white">
+                    <div class="col-12">
+                        <div class="footer-bottom__copyright">
+                            &COPY; Todos direitos reservado 2024 <a href="#">Grancommerce</a> | Representante oficial <a
+                                href="http://codewithpatrick.com" target="_blank">Microwear</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTAO PARA VOLTAR AO INICIO -->
+    <a href="#" class="shadow btn-primary rounded-circle back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
